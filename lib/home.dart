@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'mapa.dart';
+
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
@@ -14,7 +16,10 @@ class _HomePageState extends State<HomePage> {
 
   void _abrirMapa() {}
   void _excluirViagen() {}
-  void _adcionarLocal() {}
+  void _adcionarLocal() {
+    Navigator.push(context, MaterialPageRoute(builder: (_) => Mapa()));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
