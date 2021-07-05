@@ -1,16 +1,39 @@
-# flutter_google_maps
+# Flutter Google Maps
 
-A new Flutter project.
+Follow Steps:
 
-## Getting Started
+# API
 
-This project is a starting point for a Flutter application.
+First Step:
+    
+    https://developers.google.com/  You must generate your API key
+         
+Second Step:
 
-A few resources to get you started if this is your first Flutter project:
+  Inside FLutter project android manifest
+  <manifest ...
+  <application ...
+    <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="YOUR KEY HERE"/>
+               
+https://pub.dev/packages/google_maps_flutter
+    
+ 
+# Flutter
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+ 
+First Step:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    flutter packages get
+        
+Second Step:
+
+    flutter run
+
+
+# Home
+<img src="/readme/HomeGoogleMaps.png" >
+
+# View
+
+<img src="/readme/GoogleMaps.png" >
